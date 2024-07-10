@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+/*  */
+header{
+    height: 91vh;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ), url(../images/background/banner-bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    position: relative;
+    background-color: rgba(4, 9, 30, 0.8);
+  }
+/*  */
+/*  headrde end*/
+  
+.feacture_area{
+    position: relative;
+    top: -50px;
+    padding-bottom: 20px;
+    /* /* z-index: 99; */
+    /* margin-top: -62px; */
+  }
+  .main_content{
+    padding-top: 5%;
+    margin-left: 20%;
+  }
+  @media  (min-width: 768px){
+    .main_content{
+       padding-top: 15%;
+    }
+  }
+  .orange{
+    background-color: rgb(255, 106, 0);
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 0px;
+  }
+  .feacture_area .container .something{
+    background-color: #b5b8c366;
+  }
+  @media (min-width: 320px) and (max-width: 767px){
+    .no_use{
+        display: none;
+    }
+  }
+
+
+/* form section */
+.form_bg {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+    ), url('../images/background/s-bg.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form_backy {
+    background-color: rgba(236, 231, 231, 0.173);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.sumit_btn {
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .d-flex.justify-content-between {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form_backy {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 2rem;
+    }
+}
+/* upcoming section */
+@media (max-width: 768px) {
+    .event-content {
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    .event-content h5 {
+        font-size: 1.25rem;
+    }
+    .event-content p {
+        font-size: 0.9rem;
+    }
+}
+/* instructor section */
+.instructor_bg {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url('../images/background/cta-bg.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    margin-bottom: 50px;
+}
+@media (max-width: 768px) {
+    .instructor_bg {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .instructor_bg h1 {
+        font-size: 2rem;
+    }
+    .instructor_bg p {
+        padding: 1.5rem;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 576px) {
+    .instructor_bg h1 {
+        font-size: 1.5rem;
+    }
+    .instructor_bg p {
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+}
+/* view section */
+.bg-warning-custom {
+    background-color: #ffc107; /* Bootstrap warning color */
+}
+@media (max-width: 768px) {
+    .section-heading {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .section-button {
+        text-align: center;
+    }
+}
+
+/* footer */
+footer {
+    padding: 40px;
+    color: white;
+    background-color: #04091E;
+}
+footer a {
+    text-decoration: none;
+    color: gray;
+}
+footer li {
+    list-style: none;
+}
+.footer-social a {
+    color: white;
+}
+@media (max-width: 768px) {
+    .footer-social {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 576px) {
+    .footer-text {
+        text-align: center;
+    }
+}
